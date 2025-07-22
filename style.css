@@ -32,14 +32,18 @@ body{
 }
 
 .grid {
-    display: grid;
-    gap: 10px;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0% 10%;
 } 
 
 .grid div{
     padding: 15px;
     border-radius: 50px;
     background-color:blanchedalmond;
+    width: 20%;
 }
 
 h2 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
@@ -50,4 +54,9 @@ p { font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .fullbringer{
     color:rgb(169, 22, 22)
+}
+
+
+@media (max-width: 768px) {
+    body{background-color: aqua;} 
 }
