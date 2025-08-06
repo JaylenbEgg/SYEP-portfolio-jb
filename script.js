@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 function showPerson(person){
-    const Item = reviews[Person];
+    const item = reviews[Person];
      img.src = item.img;
     author.textContent = item.name;
     job.textContent = item.job;
