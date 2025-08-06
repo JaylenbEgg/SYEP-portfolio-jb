@@ -1,17 +1,17 @@
 const reviews = [
     {
         id: 1, 
-        name: 'susan smith',
+        name: 'burger bob',
         img: '#',
-        text: 'AAAAAAAAAAAAAAAA'
+        text: 'AAAAAAAAAAAAAAAA',
     },
-    {
+{
         id: 2, 
         name: 'EEEEEE',
         img: '#',
         text: 'AAAAAAAAAAAAAAAA'
     },
-    {
+{
         id: 3, 
         name: 'EEERRRR',
         img: '#',
