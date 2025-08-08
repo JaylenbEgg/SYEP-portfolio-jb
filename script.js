@@ -1,21 +1,21 @@
 const reviews = [
     {
         id: 1, 
-        name: 'burger bob',
-        img: '#',
-        text: 'AAAAAAAAAAAAAAAA',
+        name: 'Ahkeel',
+        img: 'ancle man.jpeg',
+        text: 'jgnrjgrivnfnvkjnvkjtiug rgn',
     },
 {
         id: 2, 
-        name: 'EEEEEE',
+        name: 'EEEEE',
         img: '#',
-        text: 'AAAAAAAAAAAAAAAA'
+        text: 'AAAAAAAAAAAAAAAA',
     },
 {
         id: 3, 
         name: 'EEERRRR',
         img: '#',
-        text: 'AAAAAAAAAAAAAAAA'
+        text: 'AAAAAAAAAAAAAAAA',
     },
 ]
 
@@ -46,7 +46,7 @@ function showPerson(person){
 
 nextBtn.addEventListener('click', function() {
     currentItem++;
-    if (currentItem > reviews.Length -1){
+    if(currentItem > reviews.Length -1){
        currentItem = 0;
     }
     showPerson(currentItem);
@@ -60,7 +60,8 @@ prevBtn.addEventListener('click', function (){
     }
     showPerson(currentItem);
 
-});
+}
+);
 
 
 
