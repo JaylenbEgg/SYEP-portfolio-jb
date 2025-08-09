@@ -1,21 +1,23 @@
-const reviews = [
-    {
+const reviews = [{
         id: 1, 
-        name: 'Ahkeel',
+        name: "Ahkeel",
         img: 'ancle man.jpeg',
-        text: 'jgnrjgrivnfnvkjnvkjtiug rgn',
+        info: 'jgnrjgrivnfnvrgn',
+        date: '2025-8-8'
     },
-{
+    {
         id: 2, 
-        name: 'EEEEE',
+        name: 'Jane smith',
         img: '#',
-        text: 'AAAAAAAAAAAAAAAA',
+        info: 'AAAAAAAAAAAAAAAA',
+        date: '2025-8-8'
     },
-{
+    {
         id: 3, 
         name: 'EEERRRR',
         img: '#',
-        text: 'AAAAAAAAAAAAAAAA',
+        info: 'AAAAAAAAAAAAAAAA',
+        date: '2025-8-8'
     },
 ]
 
@@ -37,7 +39,7 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 function showPerson(person){
-    const item = reviews[Person];
+    const item = reviews[person];
      img.src = item.img;
     author.textContent = item.name;
     job.textContent = item.job;
@@ -50,18 +52,16 @@ nextBtn.addEventListener('click', function() {
        currentItem = 0;
     }
     showPerson(currentItem);
-   }
-);   
+   });   
 
 prevBtn.addEventListener('click', function (){
     currentItem--;
-    if(currentItem < 0){
-        currentItem = reviews.Length -1;
+    if (currentItem < 0){
+        currentItem = reviews.Length - 1;
     }
     showPerson(currentItem);
 
-}
-);
+});
 
 
 
