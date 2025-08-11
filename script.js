@@ -1,17 +1,17 @@
 const reviews = [{
         id: 1, 
-        name: "Ahkeel",
-        img: 'ancle man.jpeg',
+        name: "Akheel Dixon",
+        img: 'ancle man.jpg',
         job: 'Web developer',
-        info: 'jgnrjgrivnfnvkjnvkjtiug rgn',
+        info: '"Jayleen. He’s A funny guy who makes a lot of jokes. At crucial times he knows when to sit and focus. He likes to get his stuff finished first then he’s open to help his friends and anyone else who meeds it"',
         date: '2025-8-8'
     },
     {
         id: 2, 
-        name: 'Jane smith',
-        img: '#',
+        name: 'Jayden Paulino',
+        img: 'jp.jpg',
         job: '',
-        info: 'AAAAAAAAAAAAAAAA',
+        info: '"Jaylen is a very smart guy and knows how to pull a team together when its necessary. He provides great leadership and is also very kind and humurous"',
         date: '2025-8-8'
     },
     {

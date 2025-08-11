@@ -187,17 +187,17 @@ main {
 }
 .img-container {
  position: relative;
- width: 100px;
- height: 100px;
+ width: 150px;
+ height: 150px;
  border-radius: 50%;
  margin: 0 auto;
  margin-bottom: 1.5rem;
 }
 #person-img {
- width: 100%;
- display: block;
- height: 100%;
- object-fit: cover;
+ width: 110%;
+ display: cover;
+ height: 110%;
+ object-fit: contain;
  border-radius: 50%;
  position: relative;
 }
@@ -208,8 +208,8 @@ main {
  position: absolute;
  top: 0;
  left: 0;
- width: 3rem;
- height: 3rem;
+ width: 2.5rem;
+ height: 2.5rem;
  display: grid;
  place-items: center;
  border-radius: 50%;
@@ -219,8 +219,8 @@ main {
 }
 .img-container::before {
  content: "";
- width: 100%;
- height: 100%;
+ width: 105%;
+ height: 105%;
  background: var(--clr-primary-5);
  position: absolute;
  top: -0.25rem;
@@ -247,7 +247,7 @@ main {
  border-color: transparent;
  margin: 0 0.5rem;
  transition: var(--transition);
- cursor: pointer;
+ cursor: crosshair;
 }
 .prev-btn:hover,
 .next-btn:hover {
@@ -262,7 +262,7 @@ main {
  border-radius: var(--radius);
  transition: var(--transition);
  border-color: var(--clr-primary-5);
- cursor: pointer;
+ cursor: crosshair;
 }
 .random-btn:hover {
  background: var(--clr-primary-5);
