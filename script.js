@@ -2,13 +2,15 @@ const reviews = [{
         id: 1, 
         name: "Ahkeel",
         img: 'ancle man.jpeg',
-        info: 'jgnrjgrivnfnvrgn',
+        job: 'Web developer',
+        info: 'jgnrjgrivnfnvkjnvkjtiug rgn',
         date: '2025-8-8'
     },
     {
         id: 2, 
         name: 'Jane smith',
         img: '#',
+        job: '',
         info: 'AAAAAAAAAAAAAAAA',
         date: '2025-8-8'
     },
@@ -16,6 +18,7 @@ const reviews = [{
         id: 3, 
         name: 'EEERRRR',
         img: '#',
+        job: '',
         info: 'AAAAAAAAAAAAAAAA',
         date: '2025-8-8'
     },
@@ -35,7 +38,7 @@ window.addEventListener('DOMContentLoaded', function() {
     img.src = items.img;
     author.textContent = items.name;
     job.textContent = items.job;
-    info.textContent = items.text;
+    info.textContent = items.info;
 });
 
 function showPerson(person){
@@ -43,7 +46,7 @@ function showPerson(person){
      img.src = item.img;
     author.textContent = item.name;
     job.textContent = item.job;
-    info.textContent = item.text;
+    info.textContent = item.info;
 };
 
 nextBtn.addEventListener('click', function() {
