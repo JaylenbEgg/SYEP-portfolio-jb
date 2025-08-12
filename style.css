@@ -56,6 +56,19 @@ p { font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(169, 22, 22)
 }
 
+.section{
+    gap:10px;
+    padding: 15px;
+}
+
+.section img{ 
+    border-radius: 10%;
+    margin-bottom: 30px;
+    width: 15%;
+    padding: 15px
+}
+
+
 
 @media (max-width: 768px) {
     body{background-color: aqua;} 
