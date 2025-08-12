@@ -46,6 +46,21 @@ body{
     width: 20%;
 }
 
+
+
+.section3 {
+    
+    padding: 0.1px;
+    border-radius: 50px;
+    background-color:rgb(255, 205, 247);
+    container-type: normal;
+    text-align: center;
+    color: rgba(17, 17, 211, 0.604);
+}
+
+
+
+
 h2 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 } 
 
@@ -56,16 +71,19 @@ p { font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(169, 22, 22)
 }
 
-.section{
+.section1{
     gap:10px;
     padding: 15px;
 }
 
-.section img{ 
+
+
+.section1 img{ 
     border-radius: 10%;
     margin-bottom: 30px;
     width: 15%;
-    padding: 15px
+    padding: 15px;
+    background-color: rgb(212, 160, 93);
 }
 
 
