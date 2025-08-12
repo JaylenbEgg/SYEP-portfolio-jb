@@ -19,7 +19,7 @@ const reviews = [{
         name: 'Eddie hines ',
         img: 'E.jpg',
         job: '',
-        info: 'Jaylen is a trustworthy person.',
+        info: '"Jaylen is a very reliable, kind, creative and fun guy. Gets along with people easily and, always nice to be around and and someone you can trust. He helps out whenever its needed and is truly a gift to have in life."',
         date: '2025-8-8'
     },
 ]
