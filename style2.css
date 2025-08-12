@@ -204,7 +204,7 @@ main {
 .img-container::after {
  font-family: "Font Awesome 5 Free";
  font-weight: 900;
- content: "A";
+ content: "'";
  position: absolute;
  top: 0;
  left: 0;
@@ -214,14 +214,14 @@ main {
  place-items: center;
  border-radius: 50%;
  transform: translateY(35%);
- background: var(--clr-primary-5);
- color: var(--clr-white);
+ background: var(--clr-black);
+ color: var(--clr-grey-5);
 }
 .img-container::before {
  content: "";
  width: 105%;
  height: 105%;
- background: var(--clr-primary-5);
+ background: var(--clr-red-dark);
  position: absolute;
  top: -0.25rem;
  right: -0.5rem;
@@ -265,7 +265,7 @@ main {
  cursor: crosshair;
 }
 .random-btn:hover {
- background: var(--clr-primary-5);
+ background: var(--clr-grey-1);
  color: var(--clr-primary-1);
 }
 
