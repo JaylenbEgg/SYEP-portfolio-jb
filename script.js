@@ -2,24 +2,24 @@ const reviews = [{
         id: 1, 
         name: "Akheel Dixon",
         img: 'ancle man.jpg',
-        job: 'Web developer',
-        info: '"Jayleen. He’s A funny guy who makes a lot of jokes. At crucial times he knows when to sit and focus. He likes to get his stuff finished first then he’s open to help his friends and anyone else who meeds it"',
+        job: 'student learning Web developer.',
+        info: '"Jaylen. He’s A funny guy who makes a lot of jokes. At crucial times he knows when to sit and focus. He likes to get his stuff finished first then he’s open to help his friends and anyone else who meeds it"',
         date: '2025-8-8'
     },
     {
         id: 2, 
         name: 'Jayden Paulino',
         img: 'jp.jpg',
-        job: '',
+        job: 'student learning Web developer.',
         info: '"Jaylen is a very smart guy and knows how to pull a team together when its necessary. He provides great leadership and is also very kind and humurous"',
         date: '2025-8-8'
     },
     {
         id: 3, 
-        name: 'EEERRRR',
-        img: '#',
+        name: 'Eddie hines ',
+        img: 'E.jpg',
         job: '',
-        info: 'AAAAAAAAAAAAAAAA',
+        info: 'Jaylen is a trustworthy person.',
         date: '2025-8-8'
     },
 ]
